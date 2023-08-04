@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -22,5 +22,10 @@
   "browser": {
     "crypto": false,
     "stream": false
+  },
+  "devDependencies": {
+    "sst": "^2.23.2",
+    "aws-cdk-lib": "2.84.0",
+    "constructs": "10.1.156"
   }
 }
