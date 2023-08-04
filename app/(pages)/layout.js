@@ -1,3 +1,4 @@
+import { getServerSession } from 'next-auth'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
