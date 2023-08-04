@@ -1,8 +1,6 @@
 import NextAuth from "next-auth"
 import Credentials from "next-auth/providers/credentials"
 
-export const runtime = 'edge';
-
 const handler = NextAuth({
     providers: [
         Credentials({
