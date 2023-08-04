@@ -1,8 +1,6 @@
 import SignOut from "@/app/components/signoutButton"
 import { getServerSession } from "next-auth"
 
-export const runtime = 'edge';
-
 export default async function Dashboard() {
   return (
     <div className="flex flex-row h-20 py-4 border border-neutral-400">
